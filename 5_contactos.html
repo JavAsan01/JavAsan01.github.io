@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles\5_contactos.css">
+    <link rel="stylesheet" href="styles\1_inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>My PET</title>
+</head>
+
+
+<body>
+    <!-- ******************************************** NAVBAR *************************************************-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="nav-p">
+        <div class="container-fluid" id="contenerdor-n">
+            <a class="navbar-brand" href="#">
+                <img src="img\facil4.png" alt="logo"  height="50">
+            </a>
+            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" height="3rem" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>         
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="2_nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="3_servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="5_contactos.html">CONTACTOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="login.php">CITAS</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ***************************************** CONTENIDO (CONTACTOS) ***************************************-->
+    <div class="contenedor">
+        <h1 class="tema_general">CONTACTOS</h1>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row contenedor-contactos">
+            <div class="col-lg-6 col-md-6 col-sm-12 informacion">
+                <div class="tinfo">
+                    <h1>Manténganse Conectado</h1>
+                    <br>
+                </div>
+                <div class="col d-flex marco text-center">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Av. Colón E11-58 y 12 de Octubre</p>
+                </div>
+                <div class="col d-flex marco">
+                    <i class="icono fas fa-envelope "></i>
+                    <p>mypet@gmail.com</p>
+                </div>
+                <div class="col d-flex marco">
+                    <i class="icono fas fa-phone "></i>
+                    <p>(593) 03 2252205 <br> (593) 03 2252307 </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 pt-5">
+                <div class="formulario">
+                    <div class="jumbotron">
+                        <h1>Contactenos</h1>
+                    </div>
+                    <div class="contactoform">
+                        <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Nombre</label>
+                                    <input type="text" name="nombre" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>E-mail</label>
+                                    <input type="text" name="mail" class="form-control">
+                                </div>
+                            </div>
+                            <label>Celular</label>
+                            <input type="text" name="celular" class="form-control">
+                            <label>Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="5" class="form-control"></textarea>
+                            <br>
+                            <input type="submit" class="btn btn-info" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+            <h2 class="tmapa">Ubicanos</h2>
+            <br>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.0373912022374!2d-79.59602368572081!3d-2.139347137753809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d47b003a77cf5%3A0x3daab80ebb553d65!2s12%20de%20Octubre%20%26%20Av.%20Crist%C3%B3bal%20Col%C3%B3n%2C%20Milagro%20091701!5e0!3m2!1ses!2sec!4v1673271076453!5m2!1ses!2sec"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+
+
+    <!--********************************************* FOOTER *********************************************-->
+    <div class="container-fluid">
+        <div class="row p-5 text-white pie">
+            <!--LOGO-->
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <a href="" class="col-3 text-reset text-uppercase d-flex align-items-center text-decoration-none">
+                    <img src="img\facil4.png" alt="logo MY PET" height="60">
+                    <h5><strong>VETERINARIA MY PET</strong></h5>
+                </a>
+            </div>
+
+            <!--DIRECCION-->
+            <div class="col-xs-12 col-md-6 col-lg-3">
+
+                <a href="#" class="col-3 text-reset text-uppercase d-flex align-items-center text-decoration-none">
+                    <img src="img/direccion.ico" alt="logo MY PET">
+                    <h5><strong>DIRECCION</strong></h5>
+                </a>
+                <p>Av. Colón E11-58 y 12 de Octubre Quito, Pichincha, Ecuador</p>
+            </div>
+
+            <!--SIGUENOS-->
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <h5><strong>SIGUENOS EN:</strong></h5>
+                <a href="https://www.whatsapp.com/" target="_blank"> <img src="img/whatsapp.ico" alt="whatsapp"></a>
+                <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagram.ico" alt="instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebook.ico" alt="facebook"></a>
+
+            </div>
+
+            <!--GRACIAS-->
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <h5><strong>GRACIAS POR TU VISITA</strong></h5>
+            </div>
+        </div>
+
+
+        <!--DERECHOS RESERVADOS-->
+        <div class="col-xs-12">
+            <p class="text-center"> &copy 2022 - <strong>los chicos dulces</strong> - Todos los Derechos Reservados</p>
+        </div>
+
+
+    </div>
+
+
+    <!--SCRIPT_BOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

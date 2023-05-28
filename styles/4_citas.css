@@ -1,0 +1,65 @@
+#carta-c{
+    padding-bottom: 1%;
+}
+#formulario-c{
+    background: rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding-top: 30px;
+    color: rgb(242, 145, 10);
+    
+}
+#imagen-c{
+    margin-left: 2%;
+    border-radius: 5px;
+    background: rgba(0,0,0,.2);
+    padding-top: 15%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(242, 145, 10);
+    font-size: 20px;
+}
+
+.imagen-c img{
+    border: solid 1px;
+    margin-top: 50px;
+}
+
+#formulario-c label{
+    width: 100%;
+    /* background-color: red; */
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#formulario-c input{
+    width: 100%;
+    font-size: 20px;
+    /* background-color: blue; */
+    
+}
+
+.btn button{
+    border: solid 2px;
+    background-color: rgb(242, 145, 10);;
+    width: 50%;
+    float: left;
+}
+.btn {
+    width: 100%;
+    color: white;
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+} 
+.btn button a:hover{
+    text-decoration: none;
+    color: rgb(242, 145, 10);
+    transition: 0.5s;
+} 
+
+
+/* Responsive */
